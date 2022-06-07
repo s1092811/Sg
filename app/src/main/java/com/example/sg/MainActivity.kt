@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         imgAuthor = findViewById(R.id.imgAuthor)
         GlideApp.with(this)
             //.load(R.drawable.earth)
-            .load(R.drawable.pic)
+            .load(R.drawable.pic123)
             .circleCrop()
             .override(800, 600)
             .into(imgAuthor)
